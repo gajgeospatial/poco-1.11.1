@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3EB29E37-21D1-387E-9717-B2F557453DA8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\Development\Dev_Base\poco-1.11.1\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule N:/Development/Dev_Base/poco-1.11.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/poco-1.11.1 -BN:/Development/Dev_Base/poco-1.11.1/msvc_static --check-stamp-file N:/Development/Dev_Base/poco-1.11.1/msvc_static/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\CXX1x.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\DefinePlatformSpecifc.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindAPR.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindAPRUTIL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindApache2.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindMySQL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindODBC.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindPostgreSQL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\PocoConfig.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\PocoMacros.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\cmake_uninstall.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\test_compiler.cpp;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeCCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/Development/Dev_Base/poco-1.11.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/poco-1.11.1 -BN:/Development/Dev_Base/poco-1.11.1/msvc_static --check-stamp-file N:/Development/Dev_Base/poco-1.11.1/msvc_static/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\CXX1x.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\DefinePlatformSpecifc.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindAPR.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindAPRUTIL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindApache2.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindMySQL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindODBC.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindPostgreSQL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\PocoConfig.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\PocoMacros.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\cmake_uninstall.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\test_compiler.cpp;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeCCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule N:/Development/Dev_Base/poco-1.11.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/poco-1.11.1 -BN:/Development/Dev_Base/poco-1.11.1/msvc_static --check-stamp-file N:/Development/Dev_Base/poco-1.11.1/msvc_static/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\CXX1x.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\DefinePlatformSpecifc.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindAPR.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindAPRUTIL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindApache2.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindMySQL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindODBC.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindPostgreSQL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\PocoConfig.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\PocoMacros.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\cmake_uninstall.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\test_compiler.cpp;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeCCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule N:/Development/Dev_Base/poco-1.11.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/poco-1.11.1 -BN:/Development/Dev_Base/poco-1.11.1/msvc_static --check-stamp-file N:/Development/Dev_Base/poco-1.11.1/msvc_static/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\CXX1x.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\DefinePlatformSpecifc.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindAPR.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindAPRUTIL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindApache2.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindMySQL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindODBC.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\FindPostgreSQL.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\PocoConfig.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\PocoMacros.cmake;N:\Development\Dev_Base\poco-1.11.1\cmake\cmake_uninstall.cmake.in;N:\Development\Dev_Base\poco-1.11.1\cmake\test_compiler.cpp;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeCCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\3.20.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\ZERO_CHECK.vcxproj">
+      <Project>{FFAD0904-D517-3E6C-837E-905434710E3A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\ActiveRecord\ActiveRecord.vcxproj">
+      <Project>{1B141C20-D5EA-3E96-B978-BF8F89A9278A}</Project>
+      <Name>ActiveRecord</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\ActiveRecord\Compiler\ActiveRecordCompiler.vcxproj">
+      <Project>{BCA0C481-1547-3126-B0CF-D60DB0C6A2BD}</Project>
+      <Name>ActiveRecordCompiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\Crypto\Crypto.vcxproj">
+      <Project>{4B6DA566-FB68-36D3-AC9C-3D3F944CA48C}</Project>
+      <Name>Crypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\Data\Data.vcxproj">
+      <Project>{42329770-11B6-379A-A2E8-37D8FA912DA1}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\Data\ODBC\DataODBC.vcxproj">
+      <Project>{33673FD8-92DD-3B94-8D82-5337FE6E6F43}</Project>
+      <Name>DataODBC</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\Data\SQLite\DataSQLite.vcxproj">
+      <Project>{2C2CEA48-2F81-3A16-86B9-F0916C7A89B0}</Project>
+      <Name>DataSQLite</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\Encodings\Encodings.vcxproj">
+      <Project>{5922D402-77EA-3DB1-B24D-F32E76688854}</Project>
+      <Name>Encodings</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\PageCompiler\File2Page\File2Page.vcxproj">
+      <Project>{13C00AF7-4DE1-331A-A2E1-DDF55B9799A2}</Project>
+      <Name>File2Page</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\Foundation\Foundation.vcxproj">
+      <Project>{F91C7FF3-1BA5-3367-BCDC-2584F289509C}</Project>
+      <Name>Foundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\JSON\JSON.vcxproj">
+      <Project>{46ECA4BF-7189-364D-B2EB-6585564027AF}</Project>
+      <Name>JSON</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\JWT\JWT.vcxproj">
+      <Project>{DE03B4D0-B97E-3479-80DA-6A80660B7ADC}</Project>
+      <Name>JWT</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\MongoDB\MongoDB.vcxproj">
+      <Project>{EDDB5348-FA4D-3D09-B834-E7E182D9D5D7}</Project>
+      <Name>MongoDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\Net\Net.vcxproj">
+      <Project>{46127053-01F2-39D3-99CE-5CA396AAF549}</Project>
+      <Name>Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\NetSSL_OpenSSL\NetSSL.vcxproj">
+      <Project>{EB96F6FF-FB87-3348-BBC6-B7B2B361F0A6}</Project>
+      <Name>NetSSL</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\PageCompiler\PageCompiler.vcxproj">
+      <Project>{19B485E0-F6B0-3C71-BD4E-0BFBA0D1EC65}</Project>
+      <Name>PageCompiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\Redis\Redis.vcxproj">
+      <Project>{31234213-662D-3737-8032-798ED7B1DB90}</Project>
+      <Name>Redis</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\Util\Util.vcxproj">
+      <Project>{03052981-0118-3D64-A9F2-3427586014D4}</Project>
+      <Name>Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\XML\XML.vcxproj">
+      <Project>{742D43CC-EA09-3F8F-B7BE-656C375E5998}</Project>
+      <Name>XML</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\Zip\Zip.vcxproj">
+      <Project>{4C8E11BD-3351-3C82-9D5D-31908CDB6751}</Project>
+      <Name>Zip</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

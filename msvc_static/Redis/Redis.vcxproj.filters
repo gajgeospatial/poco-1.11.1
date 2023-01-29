@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Redis\src\Array.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Redis\src\AsyncReader.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Redis\src\Client.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Redis\src\Command.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Redis\src\Error.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Redis\src\Exception.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Redis\src\RedisEventArgs.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Redis\src\RedisStream.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Redis\src\Type.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\Array.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\AsyncReader.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\Client.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\Command.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\Error.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\Exception.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\PoolableConnectionFactory.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\Redis.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\RedisEventArgs.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\RedisStream.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Redis\include\Poco\Redis\Type.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Redis">
+      <UniqueIdentifier>{07BF5BFE-C2B6-360D-B630-67CA8AB2B83F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Redis\Header Files">
+      <UniqueIdentifier>{E5E1A7A9-7ADC-378A-B636-8F3F7D0B6D32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Redis\Source Files">
+      <UniqueIdentifier>{FD339BAB-222D-35AA-8F76-56119281FFC0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

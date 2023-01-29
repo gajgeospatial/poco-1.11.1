@@ -1,0 +1,51 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindCygwin.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindOpenSSL.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/InstallRequiredSystemLibraries.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.20/Templates/CPackConfig.cmake.in
+N:/Development/Dev_Base/poco-1.11.1/CMakeLists.txt
+N:/Development/Dev_Base/poco-1.11.1/cmake/CXX1x.cmake
+N:/Development/Dev_Base/poco-1.11.1/cmake/DefinePlatformSpecifc.cmake
+N:/Development/Dev_Base/poco-1.11.1/cmake/FindAPR.cmake
+N:/Development/Dev_Base/poco-1.11.1/cmake/FindAPRUTIL.cmake
+N:/Development/Dev_Base/poco-1.11.1/cmake/FindApache2.cmake
+N:/Development/Dev_Base/poco-1.11.1/cmake/FindMySQL.cmake
+N:/Development/Dev_Base/poco-1.11.1/cmake/FindODBC.cmake
+N:/Development/Dev_Base/poco-1.11.1/cmake/FindPostgreSQL.cmake
+N:/Development/Dev_Base/poco-1.11.1/cmake/PocoConfig.cmake.in
+N:/Development/Dev_Base/poco-1.11.1/cmake/PocoMacros.cmake
+N:/Development/Dev_Base/poco-1.11.1/cmake/cmake_uninstall.cmake.in
+N:/Development/Dev_Base/poco-1.11.1/cmake/test_compiler.cpp
+N:/Development/Dev_Base/poco-1.11.1/msvc_static/CMakeFiles/3.20.0/CMakeCCompiler.cmake
+N:/Development/Dev_Base/poco-1.11.1/msvc_static/CMakeFiles/3.20.0/CMakeCXXCompiler.cmake
+N:/Development/Dev_Base/poco-1.11.1/msvc_static/CMakeFiles/3.20.0/CMakeRCCompiler.cmake
+N:/Development/Dev_Base/poco-1.11.1/msvc_static/CMakeFiles/3.20.0/CMakeSystem.cmake

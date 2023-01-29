@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\AcceptCertificateHandler.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\CertificateHandlerFactory.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\CertificateHandlerFactoryMgr.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\ConsoleCertificateHandler.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\Context.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\FTPSClientSession.cpp">
+      <Filter>FTPS\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\FTPSStreamFactory.cpp">
+      <Filter>FTPS\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\HTTPSClientSession.cpp">
+      <Filter>HTTPSClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\HTTPSSessionInstantiator.cpp">
+      <Filter>HTTPSClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\HTTPSStreamFactory.cpp">
+      <Filter>HTTPSClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\InvalidCertificateHandler.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\KeyConsoleHandler.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\KeyFileHandler.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\PrivateKeyFactory.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\PrivateKeyFactoryMgr.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\PrivateKeyPassphraseHandler.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\RejectCertificateHandler.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\SSLException.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\SSLManager.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\SecureSMTPClientSession.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\SecureServerSocket.cpp">
+      <Filter>SSLSockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\SecureServerSocketImpl.cpp">
+      <Filter>SSLSockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\SecureSocketImpl.cpp">
+      <Filter>SSLSockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\SecureStreamSocket.cpp">
+      <Filter>SSLSockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\SecureStreamSocketImpl.cpp">
+      <Filter>SSLSockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\Session.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\Utility.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\VerificationErrorArgs.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NetSSL_OpenSSL\src\X509Certificate.cpp">
+      <Filter>SSLCore\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\AcceptCertificateHandler.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\CertificateHandlerFactory.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\CertificateHandlerFactoryMgr.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\ConsoleCertificateHandler.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\Context.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\FTPSClientSession.h">
+      <Filter>FTPS\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\FTPSStreamFactory.h">
+      <Filter>FTPS\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\HTTPSClientSession.h">
+      <Filter>HTTPSClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\HTTPSSessionInstantiator.h">
+      <Filter>HTTPSClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\HTTPSStreamFactory.h">
+      <Filter>HTTPSClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\InvalidCertificateHandler.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\KeyConsoleHandler.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\KeyFileHandler.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\NetSSL.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\PrivateKeyFactory.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\PrivateKeyFactoryMgr.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\PrivateKeyPassphraseHandler.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\RejectCertificateHandler.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\SSLException.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\SSLManager.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\SecureSMTPClientSession.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\SecureServerSocket.h">
+      <Filter>SSLSockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\SecureServerSocketImpl.h">
+      <Filter>SSLSockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\SecureSocketImpl.h">
+      <Filter>SSLSockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\SecureStreamSocket.h">
+      <Filter>SSLSockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\SecureStreamSocketImpl.h">
+      <Filter>SSLSockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\Session.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\Utility.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\VerificationErrorArgs.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NetSSL_OpenSSL\include\Poco\Net\X509Certificate.h">
+      <Filter>SSLCore\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FTPS">
+      <UniqueIdentifier>{67543EAD-5262-3665-BEEE-22694A148528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTPS\Header Files">
+      <UniqueIdentifier>{D871581E-5252-380C-9F3C-349A0F374E47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTPS\Source Files">
+      <UniqueIdentifier>{B70CE966-33E1-3674-907B-F3941D8294AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPSClient">
+      <UniqueIdentifier>{C5CF5629-7D17-3D15-ADA2-A6D3A7677010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPSClient\Header Files">
+      <UniqueIdentifier>{20F1FB35-C96B-36A5-909B-30453F34692C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPSClient\Source Files">
+      <UniqueIdentifier>{9E3DE53E-DBC1-35FD-B4A7-2A11F2D47434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail">
+      <UniqueIdentifier>{8077FEAB-7BEF-31C7-9535-EF6F3F05AB2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail\Header Files">
+      <UniqueIdentifier>{3D379AB8-83C2-3A7D-B16C-D0A427CBA2FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail\Source Files">
+      <UniqueIdentifier>{E46DEB6B-F11C-34E4-92AD-4E226ADA27B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSLCore">
+      <UniqueIdentifier>{A95C82EE-A5DB-3DA3-A061-24948BA97715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSLCore\Header Files">
+      <UniqueIdentifier>{D3427E34-7769-352E-96E5-C340BD59AAE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSLCore\Source Files">
+      <UniqueIdentifier>{413FA0F6-8B1C-3A0E-AFDE-C8F653200837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSLSockets">
+      <UniqueIdentifier>{43B4224D-4B25-333B-86FD-14EF1248E6C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSLSockets\Header Files">
+      <UniqueIdentifier>{7812B671-6C36-3585-8030-5A912E867F93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSLSockets\Source Files">
+      <UniqueIdentifier>{116421F0-8DDE-314A-9F99-73DB6AF0073C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\34fd09f6f30d8dd4ef2dd9314b2c0f5a\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\poco-1.11.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="N:\Development\Dev_Base\poco-1.11.1\msvc_static\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3C478F55-C715-3427-9842-F1630D7D3983}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\JWT\src\JWTException.cpp">
+      <Filter>JWT\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JWT\src\Serializer.cpp">
+      <Filter>JWT\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JWT\src\Signer.cpp">
+      <Filter>JWT\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JWT\src\Token.cpp">
+      <Filter>JWT\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\JWT\include\Poco\JWT\JWT.h">
+      <Filter>JWT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JWT\include\Poco\JWT\JWTException.h">
+      <Filter>JWT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JWT\include\Poco\JWT\Serializer.h">
+      <Filter>JWT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JWT\include\Poco\JWT\Signer.h">
+      <Filter>JWT\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JWT\include\Poco\JWT\Token.h">
+      <Filter>JWT\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="JWT">
+      <UniqueIdentifier>{1FA7DFFA-C9EE-3830-A447-CC575F15FB94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JWT\Header Files">
+      <UniqueIdentifier>{C80BFEDD-E96D-3BE9-BFC6-E49D111B9C50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JWT\Source Files">
+      <UniqueIdentifier>{0C65DF5F-3E33-386F-8380-D76950061260}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
